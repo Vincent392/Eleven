@@ -14,6 +14,6 @@ function print(logtext) {
     console.log(logtext);
 }
 
-function tbhidk() {
-    print("aaaa");
+function loadpage(page) {
+    window.location.replace(page);
 }
