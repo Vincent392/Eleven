@@ -2,7 +2,7 @@
 A programming language named after the Stranger Things character of the same name
 
 TODO:
-- [V] Okay enough for 0.1 release
+- [v] Okay enough for 0.1 release
 - [ ] Work on web version.
 - [ ] Start work on Low-Level Version
 - [ ] Start work on JVM Version
