@@ -1,7 +1,7 @@
 /*
  * eleven.js
  * Description: Eleven programming language web implementation core
- * Created on: Friday 14th June 2024 @ 20:21
+ * Created on: Friday 14th June 2024 @ 20:21 (Irish Standard Time)
  * Author(s): Vincent392, datkat21 (Kat21)
  */
 
