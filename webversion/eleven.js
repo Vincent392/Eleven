@@ -9,3 +9,7 @@ void init11pl() {
     console.log("Eleven Programming Language");
     console.log("WEB EDITION");
 }
+
+void print(string logtext) {
+    console.log(logtext);
+}
