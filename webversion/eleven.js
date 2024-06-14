@@ -17,3 +17,7 @@ function print(logtext) {
 function loadpage(page) {
     window.location.replace(page);
 }
+
+function jsload(jsfile, function) {
+     console.log("Loading JavaScript file:" + jsfile + "function:" + function + "");
+}
