@@ -16,6 +16,7 @@ function print(logtext) {
 
 function loadpage(page) {
     window.location.replace(page);
+    console.log("Loading page: " + page);
 }
 
 function jsload(jsfile, function) {
