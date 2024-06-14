@@ -13,3 +13,7 @@ function init11pl() {
 function print(logtext) {
     console.log(logtext);
 }
+
+function tbhidk() {
+    print("aaaa");
+}
