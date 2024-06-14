@@ -6,6 +6,6 @@
  */
 
 void init11pl() {
-    Console.log("Eleven Programming Language");
-    Console.log("WEB EDITION");
+    console.log("Eleven Programming Language");
+    console.log("WEB EDITION");
 }
