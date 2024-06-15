@@ -13,4 +13,4 @@ cd src
 mv *.class ../jar
 cd ..
 cd jar
-jar
+jar cvse
