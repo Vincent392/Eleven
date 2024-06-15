@@ -26,3 +26,5 @@ mv eleven-lang.jar ../build
 cd ..
 echo Java version compiled
 cd ..
+cd lowlevelversion
+gcc
