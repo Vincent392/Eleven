@@ -19,6 +19,24 @@ function loadpage(page) {
     print("Loading page: " + page);
 }
 
-function jsload(jsfile, function) {
-     console.log("Loading JavaScript file:" + jsfile + "function:" + function + "");
+function jsloadpage(jsfile, function, async = true) {
+     print("Loading JavaScript file " + jsfile);
+     //console.log("Loading JavaScript file: " + jsfile + "function:" + function + "");
+     let jsfileload = document.createElement("script");
+
+
+     jsfileload.setAttribute("src", jsfile);
+     jsfileload.setAttribute("type", "text/javascript");
+     jsfileload.setAttribute("async", async);
+
+     document.body.appendchild(jsfileload);
+     
+     jsfileload.addEventListener("load", () => {
+     print("Loaded Javascript file successfully: " + jsfile)
+    });
+    
+    jsfileload.addEventListener("error", (ev) => {
+    print("Failed to load JavaScript file: " + jsfile);
+    print("ERROR: ", ev);
+    });
 }
