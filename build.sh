@@ -13,4 +13,4 @@ cd src
 mv *.class ../jar
 cd ..
 cd jar
-jar cvfe
+jar cvfe eleven-lang.jar
