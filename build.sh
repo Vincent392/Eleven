@@ -8,7 +8,7 @@ echo Compiling Java Version (1/8)...
 cd jvmversion/src
 javac *.java *.class
 if [ $? -ne 0]; then
-echo "Failed to compile Java version skipping"
+echo "Failed to compile Java version, skipping"
 fi
 # not the cleanest system but whatever
 cd ..
