@@ -6,3 +6,4 @@
 */
 
 #include "main/eleven.c"
+#define import #include
