@@ -1,7 +1,12 @@
 /*
 * viasdk.h
 * Purpose: Via SDK integration
-* Author(s): Vincent392
+* Author(s): Vincent392, Via Operating.
+*/
+
+/*
+  ELEVEN HAS GAINED A LICENSE FROM VIA OPERATING IN 2024 TO PROPERLY USE VIA SDK. THIS DOES NOT MEAN YOU CAN ALSO INTERGRATE VIA SDK,
+  OR ANY OTHER VIA PRODUCT IN YOUR PRODUCT.
 */
 
 #include
